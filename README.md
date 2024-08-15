@@ -41,4 +41,15 @@ Despues de crear los archivos de los módulos, ¿qué archivos se generan y cóm
 	3.	Manejo de errores: Facilita la detección y corrección de errores antes de que causen problemas mayores, asegurando que solo se procesen datos válidos.
 	4.	Cumplimiento normativo: Asegura que la aplicación cumpla con las regulaciones financieras, lo que es esencial para evitar sanciones legales.
 
-¿Qué podría suceder si un decorador está mal colocado o si no se aplican los pipes correctamente? R://
+¿Qué podría suceder si un decorador está mal colocado o si no se aplican los pipes correctamente? R:// puede “estallar” en el sentido de causar fallos importantes que afectan la estabilidad y seguridad de la aplicación.
+
+¿Cómo impacta el manejo adecuado de excepciones en la experiencia del usuario y en la seguridad de la aplicación? R://
+	1.	Mejora la experiencia del usuario:
+	•	Mensajes claros: Proporciona mensajes de error claros y útiles, ayudando al usuario a entender qué salió mal y cómo solucionarlo.
+	•	Flujo continuo: Permite manejar errores sin interrumpir la experiencia del usuario, evitando que la aplicación falle inesperadamente.
+	2.	Aumenta la seguridad de la aplicación:
+	•	Ocultación de detalles sensibles: Evita exponer información técnica o sensible que podría ser explotada por atacantes.
+	•	Prevención de ataques: Al manejar adecuadamente las excepciones, se mitigan posibles vectores de ataque como inyecciones o intentos de explotación de errores no controlados.
+
+¿Por qué es importante tener un manejo centralizado de excepciones en una aplicación NestJS? R://
+
